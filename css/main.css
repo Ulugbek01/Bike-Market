@@ -1,0 +1,437 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header .container {
+  background-image: url(../images/photo.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+header .container .navbar {
+  min-height: 40px;
+  background-color: #444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar ul {
+  display: flex;
+}
+header .navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+}
+header .navbar ul li {
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+}
+header .navbar ul li:last-child {
+  margin-right: 40px;
+}
+header .navbar .left {
+  text-transform: uppercase;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  margin-left: 40px;
+  font-size: 20px;
+}
+header .navbar ul li a:hover {
+  color: #999;
+}
+header .discription {
+  width: 400px;
+  color: white;
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+header .btn-1 {
+  width: 90px;
+  height: 30px;
+  background-color: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 640px; */
+  text-transform: uppercase;
+  font-size: 14px;
+  border: 1px solid white;
+  font-weight: 400;
+  margin: 20px auto 0;
+}
+header .btn-1:hover {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+}
+
+section h1 {
+  text-align: center;
+  margin: 30px 0;
+  text-transform: uppercase;
+  font-size: 32px;
+  color: #999;
+}
+section .direction .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-content: center;
+  align-self: center;
+  /* border: 1px solid red; */
+}
+section .direction .boxes .box-2,
+section .direction .boxes .box-3 {
+  width: 380px;
+  padding: 20px;
+}
+section .direction .boxes .box-2 h2,
+section .direction .boxes .box-3 h2 {
+  color: #999;
+  font-size: 24px;
+}
+.boxes .box-4 {
+  text-align: right;
+}
+.boxes .box-1 {
+  text-align: left;
+}
+.direction .boxes .box-2 h2,
+.direction .boxes .box-3 h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.direction .boxes .box-2 p,
+.direction .boxes .box-3 p {
+  color: #444;
+}
+/* Video joylashtirilgan */
+section .direction .video {
+  width: 100%;
+}
+section .direction .video video {
+  display: block;
+  margin: 20px auto;
+}
+
+section h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-weight: 700;
+  color: #666;
+}
+
+section .prices .boxes .box {
+  width: 25%;
+  border: 1px solid #666;
+  padding: 15px;
+  margin: 10px 20px;
+}
+section .prices .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+section .prices .boxes .box h3 {
+  color: #909090;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+section .prices .boxes .box b {
+  font-size: 24px;
+}
+section .prices .boxes .box del {
+  font-size: 20px;
+  margin-right: 10px;
+}
+section .prices .boxes .box p {
+  margin-top: 10px;
+  color: #909090;
+}
+section .prices .boxes .box .btn {
+  width: 100px;
+  margin-left: 60%;
+  padding: 8px 12px;
+  color: white;
+  border: 1px solid red;
+  background-color: rgb(112, 110, 110);
+  /* border: transparent; */
+  /* border: none; */
+  border-radius: 3px;
+  border: 1px solid #666;
+  /* text-align: center; */
+}
+/* section .prices .boxes .box  {
+  text-align: right;
+} */
+
+section .prices .boxes .box .btn:hover {
+  background-color: #fff;
+  color: rgb(102, 101, 101);
+  transform: translateY(15px);
+  cursor: pointer;
+}
+section .prices .boxes .box .btn {
+  transition: 0.2s all linear;
+}
+section .prices .boxes .box-4 {
+  text-align: left;
+}
+
+.prices .boxes .box-1,
+.prices .boxes .box-4,
+.prices .boxes .box-6,
+.prices .boxes .box-9 {
+  position: relative;
+  overflow: hidden;
+}
+.prices .boxes .box-1 .price,
+.prices .boxes .box-4 .price,
+.prices .boxes .box-6 .price,
+.prices .boxes .box-9 .price {
+  width: 140px;
+  height: 25px;
+  text-transform: uppercase;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  position: absolute;
+  top: 10px;
+  left: 220px;
+  transform: rotateZ(40deg);
+  color: white;
+}
+
+/* footer qismi */
+footer .button {
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Responsive  */
+
+@media (min-width: 0) and (max-width: 474.9px) {
+  .container {
+    width: 100%;
+    /* background-size: cover; */
+    background-position: center;
+    background-position: center;
+  }
+  .container .navbar {
+    width: 100%;
+  }
+  .container .navbar ul {
+    display: block;
+  }
+  .container .navbar .left {
+    font-size: 16px;
+  }
+  .container .navbar ul li a {
+    font-size: 12px;
+    /* padding: 0; */
+  }
+  .container .navbar ul li {
+    margin: 0;
+    padding: 0;
+  }
+  .container .discription {
+    width: 90%;
+    /* border: 1px solid red; */
+  }
+
+  /* Section qismi */
+  section {
+    width: 100%;
+  }
+  .direction .boxes .box-1 img {
+    transition: 1s all linear;
+  }
+  .direction .boxes .box-1:hover img {
+    transform: translateX(100px);
+    cursor: pointer;
+  }
+  .direction .boxes .box-4 img {
+    transition: 1s all linear;
+  }
+  .direction .boxes .box-4:hover img {
+    transform: translateX(-90px);
+    cursor: pointer;
+  }
+  /* Video responsive  */
+  .direction .video {
+    width: 100%;
+    /* border: 4px solid rebeccapurple; */
+  }
+  section .prices .boxes {
+    display: flex;
+    flex-direction: column;
+  }
+  section .prices .boxes .box {
+    width: 90%;
+  }
+  section .prices .boxes .box .btn {
+    width: 80px;
+    margin-right: 10px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 476px) and (max-width: 775.9px) {
+  .container {
+    width: 100%;
+    /* background-size: cover; */
+    background-position: center;
+    background-position: center;
+  }
+  .container .navbar {
+    width: 100%;
+  }
+  .container .navbar ul {
+    /* display: block; */
+  }
+  .container .navbar .left {
+    font-size: 18px;
+  }
+  .container .navbar ul li a {
+    font-size: 14px;
+    /* padding: 0; */
+  }
+  .container .navbar ul li {
+    /* margin: 0; */
+    /* padding: 0; */
+  }
+  .container .discription {
+    width: 90%;
+    /* border: 1px solid red; */
+  }
+
+  /* Section qismi */
+  section {
+    width: 100%;
+  }
+  .direction .boxes .box-1 img {
+    transition: 1s all linear;
+  }
+  .direction .boxes .box-1:hover img {
+    transform: translateX(100px);
+    cursor: pointer;
+  }
+  .direction .boxes .box-4 img {
+    transition: 1s all linear;
+  }
+  .direction .boxes .box-4:hover img {
+    transform: translateX(-90px);
+    cursor: pointer;
+  }
+  /* Video responsive  */
+  .direction .video {
+    width: 100%;
+    /* border: 4px solid rebeccapurple; */
+  }
+  section .prices .boxes {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+  section .prices .boxes {
+    width: 100%;
+  }
+  section .prices .boxes .box {
+    width: 40%;
+  }
+  section .prices .boxes .box .btn {
+    width: 100px;
+    margin-right: 10px;
+    font-size: 14px;
+    margin-left: 150px;
+  }
+}
+@media (min-width: 776px) and (max-width: 989.9px) {
+  .container {
+    width: 100%;
+    /* background-size: cover; */
+    background-position: center;
+    background-position: center;
+  }
+  .container .navbar {
+    width: 100%;
+  }
+  .container .navbar ul {
+    /* display: block; */
+  }
+  .container .navbar .left {
+    font-size: 18px;
+  }
+  .container .navbar ul li a {
+    font-size: 14px;
+    /* padding: 0; */
+  }
+  .container .navbar ul li {
+    /* margin: 0; */
+    /* padding: 0; */
+  }
+  .container .discription {
+    width: 90%;
+    /* border: 1px solid red; */
+  }
+
+  /* Section qismi */
+  section {
+    width: 100%;
+  }
+  .direction .boxes .box-1 img {
+    transition: 1s all linear;
+  }
+  .direction .boxes .box-1:hover img {
+    transform: translateX(100px);
+    cursor: pointer;
+  }
+  .direction .boxes .box-4 img {
+    transition: 1s all linear;
+  }
+  .direction .boxes .box-4:hover img {
+    transform: translateX(-90px);
+    cursor: pointer;
+  }
+  /* Video responsive  */
+  .direction .video {
+    width: 100%;
+    /* border: 4px solid rebeccapurple; */
+  }
+  section .prices .boxes {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+  section .prices .boxes {
+    width: 100%;
+  }
+  section .prices .boxes .box {
+    width: 30%;
+  }
+  section .prices .boxes .box .btn {
+    width: 100px;
+    margin-right: 10px;
+    font-size: 14px;
+    /* margin-left: 150px; */
+  }
+}
